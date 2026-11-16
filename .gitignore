@@ -1,0 +1,28 @@
+# Secrets – never commit
+.env
+android/local.properties
+android/keystore.properties
+android/keystore/
+
+# Server runtime data
+server/state.json
+server/state.json.tmp
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+# Android build output (also in android/.gitignore)
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/.kotlin/
+*.iml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

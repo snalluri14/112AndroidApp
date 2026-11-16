@@ -1,0 +1,13 @@
+# Copy to local.properties (Android Studio adds sdk.dir itself). Never commit local.properties.
+
+# Google Maps key (restricted to package com.ambulance.dispatch + the keystore's SHA-1)
+MAPS_API_KEY=
+
+# Default server address shown on the setup screen (driver can edit it there)
+SERVER_URL=http://192.168.1.10:8000
+
+# PIN required on the phone to change the saved vehicle ID
+ADMIN_PIN=1234
+
+# Allow plain http:// in release builds (only for LAN testing; use https in production)
+ALLOW_HTTP=true
